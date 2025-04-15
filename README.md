@@ -1,6 +1,6 @@
 # TransFusion: Generating Long, High Fidelity Time Series using Diffusion Models with Transformer
 
-This repo contains the code for TransFusion paper (https://arxiv.org/abs/2307.12667).
+This repo contains the code for TransFusion paper (https://doi.org/10.1016/j.mlwa.2025.100652).
 
 First, install the docker container by running the shell `build.sh`, after that run the environment by using `run-shell.sh` shell.
 
@@ -48,10 +48,14 @@ long_predictive_score_metrics(original_data, synthetic_data)
 Please refer to our work if you use any parts of the code:
 
 ```terminal
-@article{sikder2023transfusion,
-  title={Transfusion: Generating long, high fidelity time series using diffusion models with transformers},
-  author={Sikder, Md Fahim and Ramachandranpillai, Resmi and Heintz, Fredrik},
-  journal={arXiv preprint arXiv:2307.12667},
-  year={2023}
-}
+@article{sikdertransfusion2025,
+	title = {TransFusion: Generating long, high fidelity time series using diffusion models with transformers},
+	author={Sikder, Md Fahim and Ramachandranpillai, Resmi and Heintz, Fredrik},
+	journal = {Machine Learning with Applications},
+	volume = {20},
+	pages = {100652},
+	year = {2025},
+	issn = {2666-8270},
+	doi = {https://doi.org/10.1016/j.mlwa.2025.100652},
+	url = {https://www.sciencedirect.com/science/article/pii/S2666827025000350}}
 ```
